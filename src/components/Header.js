@@ -36,10 +36,9 @@ export default function Header({ orders, onDelete }) {
           <span className='strong'>SUP Marketplace</span>
         </a>
         <ul className='nav'>
-          <a href='./'>Каталог</a>
+          <a href='#catalog'>Каталог</a>
           <a href='./'>О нас</a>
           <a href='./'>Контакты</a>
-          <a href='./'>Администратор</a>
         </ul>
 
         <FaShoppingCart 

@@ -17,7 +17,7 @@ export default function Categories({ chooseCategory }) {
   ]
 
   return (
-    <div className='categories'>
+    <div className='categories' id='catalog'>
       {categories.map(el => (
         <div key={el.key} onClick={() => chooseCategory(el.key)}>{el.name}</div>
       ))}
