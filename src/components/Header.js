@@ -37,9 +37,6 @@ export default function Header({ orders, onDelete }) {
         </a>
         <ul className='nav'>
           <a href='#catalog'>Каталог</a>
-=======
-          <a href='#categories'>Каталог</a>
->>>>>>> Stashed changes
           <a href='./'>О нас</a>
           <a href='./'>Контакты</a>
         </ul>
