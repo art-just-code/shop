@@ -166,21 +166,12 @@ header .shop-cart .sum {
 }
 
 header .presentation::after {
-  content: 'Приобретая SUP board - вы получаете гармонию,';
+  content: 'Приобретая SUP board - вы получаете гармонию, а мы поможем с выбором!';
   position: absolute;
   top: 100px;
   left: 30px;
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 600;
-  color: #fff;
-}
-
-header .presentation::before {
-  content: 'а мы поможем с выбором!';
-  position: absolute;
-  top: 150px;
-  left: 30px;
-  font-size: 25px;
   color: #fff;
 }
 
