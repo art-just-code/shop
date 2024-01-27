@@ -62,7 +62,7 @@ header ul.nav a:hover {
 
 header .presentation {
   margin: 30px 0;
-  background: url('./img/main.jpg') no-repeat;
+  background: url('../public/img/main.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;

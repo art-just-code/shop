@@ -18,6 +18,9 @@ export default function Categories({ chooseCategory }) {
 
   return (
     <div className='categories' id='catalog'>
+=======
+    <div className='categories' id='categories'>
+>>>>>>> Stashed changes
       {categories.map(el => (
         <div key={el.key} onClick={() => chooseCategory(el.key)}>{el.name}</div>
       ))}
