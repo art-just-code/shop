@@ -3,7 +3,7 @@ import Item from './Item.js'
 
 export default function Items({ onShowInfo, items, onAdd }) {
   return (
-    <main>
+    <main className='main'>
       {items.map(el => (
         <Item onShowInfo={onShowInfo} key={el.id} item={el} onAdd={onAdd} />
       ))}

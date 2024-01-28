@@ -8,7 +8,7 @@ import ShowInformation from "./components/ShowInformation";
 export default function App() {
   const items = [
     {
-      "img": "./img/avocado.png",
+      "img": "./shop/img/avocado.png",
       "title": "Сап надувной Avocado",
       "desc": "Прочная надувная доска для гребли стоя с полным комплектом",
       "category": "supboard",
@@ -17,7 +17,7 @@ export default function App() {
       "id": "1"
     },
     {
-      "img": "./img/galaxy.png",
+      "img": "./shop/img/galaxy.png",
       "title": "Сап надувной Galaxy",
       "desc": "Прочная надувная доска для гребли стоя с полным комплектом",
       "category": "supboard",
@@ -26,7 +26,7 @@ export default function App() {
       "id": "2"
     },
     {
-      "img": "./img/paddle.jpg",
+      "img": "./shop/img/paddle.jpg",
       "title": "Весло для гребли SUP",
       "desc": "Алюминиевое трехсоставное весло для гребли стоя",
       "category": "paddle",
@@ -42,20 +42,20 @@ export default function App() {
   const [fullItem, setFullItem] = useState({});
   
   /*  
- В гите не работает мокапи?
- const [items, setItems] = useState([]);
- useEffect(() => {
-    fetch('https://64ccfd81bb31a268409a3879.mockapi.io/shop')
-      .then(res => res.json())
-      .then(json => {
-        setItems(json);
-        setCurrentItems(json);
-      })
-      .catch(err => {
-        console.warn(err);
-        alert('Ошибка при получении данных с сервера')
-      })
-  }, []); */
+  В гите не работает мокапи?
+  const [items, setItems] = useState([]);
+  useEffect(() => {
+      fetch('https://64ccfd81bb31a268409a3879.mockapi.io/shop')
+        .then(res => res.json())
+        .then(json => {
+          setItems(json);
+          setCurrentItems(json);
+        })
+        .catch(err => {
+          console.warn(err);
+          alert('Ошибка при получении данных с сервера')
+        })
+    }, []); */
 
   function onShowInfo(item) {
     setFullItem(item);
