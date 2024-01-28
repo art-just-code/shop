@@ -8,7 +8,7 @@ import ShowInformation from "./components/ShowInformation";
 export default function App() {
   const items = [
     {
-      "img": "./shop/img/avocado.png",
+      "img": "./img/avocado.png",
       "title": "Сап надувной Avocado",
       "desc": "Прочная надувная доска для гребли стоя с полным комплектом",
       "category": "supboard",
@@ -17,7 +17,7 @@ export default function App() {
       "id": "1"
     },
     {
-      "img": "./shop/img/galaxy.png",
+      "img": "./img/galaxy.png",
       "title": "Сап надувной Galaxy",
       "desc": "Прочная надувная доска для гребли стоя с полным комплектом",
       "category": "supboard",
@@ -26,7 +26,7 @@ export default function App() {
       "id": "2"
     },
     {
-      "img": "./shop/img/paddle.jpg",
+      "img": "./img/paddle.jpg",
       "title": "Весло для гребли SUP",
       "desc": "Алюминиевое трехсоставное весло для гребли стоя",
       "category": "paddle",
